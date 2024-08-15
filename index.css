@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+     font-family: "Inter", sans-serif;
+
+
+
+font-style: normal;
+
+}
+
+
+body{
+    background: rgb(0, 0, 0);
+}
+.attribution{
+    background-color: rgba(2, 22, 1, 0.427);
+    height: 15%;
+    width: 25%;
+    margin: 5% auto;
+    padding: 16px;
+    border-radius: 2%;
+
+}
+img{
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.name{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+.location{
+    color: rgb(75, 145, 29);
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.job{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 24px;
+}
+ul >li{
+    list-style: none;
+}
+ul >li >a{
+width: 80%; /* Replace with a valid width value */
+
+
+    color: rgb(255, 255, 255);
+    background: rgb(34, 32, 32);
+    text-decoration: none;
+    display: inline-block;
+   margin: 10px auto;
+   padding: 10px;
+   border-radius: 5px;
+    font-size: larger;
+    transition: background-color 0.3s ease-in-out;
+   border: solid 1px #;
+margin-right: 10px;
+    
+}
+ ul > li > a:active{
+    background: rgb(34, 32, 32);
+    color: white;
+}
+
+ul > li > a:hover{
+    background: rgb(120, 206, 139);
+    color: black;
+    
+}
